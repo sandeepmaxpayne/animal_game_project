@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\destroyOutofBound.cs" />
     <Compile Include="Assets\Scripts\moveForward.cs" />
     <Compile Include="Assets\Scripts\playerController.cs" />
+    <Compile Include="Assets\Scripts\SpawnManager.cs" />
     <None Include="Assets\Course Library\_Source_Files\_LICENSE.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Unity_Projects/animal_feed_Project2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
