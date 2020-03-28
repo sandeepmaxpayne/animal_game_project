@@ -655,8 +655,31 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1508607335205741192, guid: 75befc91b842e0346a7833ca081ae49b,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75befc91b842e0346a7833ca081ae49b, type: 3}
+--- !u!1 &883635427 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4651742500325905741, guid: 75befc91b842e0346a7833ca081ae49b,
+    type: 3}
+  m_PrefabInstance: {fileID: 682115765}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &883635432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883635427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41efa180204bdaf45b18ca018757756f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &992285705
 GameObject:
   m_ObjectHideFlags: 0
@@ -709,7 +732,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   horizontalInput: 0
-  speed: 10
+  speed: 20
   xRange: 11
   projectilePrefab: {fileID: 1975941762526923192, guid: 1b07afcd15df4e845bfc54c857031ce5,
     type: 3}

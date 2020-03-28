@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\destroyOutofBound.cs" />
+    <Compile Include="Assets\Scripts\detectCollision.cs" />
     <Compile Include="Assets\Scripts\moveForward.cs" />
     <Compile Include="Assets\Scripts\playerController.cs" />
     <Compile Include="Assets\Scripts\SpawnManager.cs" />
