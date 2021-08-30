@@ -1,7 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoudiniEngineUnity", "HoudiniEngineUnity.csproj", "{46494542-3968-A769-177C-EF685EE6C082}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{52A2611B-561F-CF11-3535-E0A739FBBA86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoudiniEngineUnityEditor", "HoudiniEngineUnityEditor.csproj", "{D6269F6C-D869-20E9-1A36-EE2EF50CBC4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46494542-3968-A769-177C-EF685EE6C082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46494542-3968-A769-177C-EF685EE6C082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46494542-3968-A769-177C-EF685EE6C082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46494542-3968-A769-177C-EF685EE6C082}.Release|Any CPU.Build.0 = Release|Any CPU
 		{52A2611B-561F-CF11-3535-E0A739FBBA86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{52A2611B-561F-CF11-3535-E0A739FBBA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52A2611B-561F-CF11-3535-E0A739FBBA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52A2611B-561F-CF11-3535-E0A739FBBA86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6269F6C-D869-20E9-1A36-EE2EF50CBC4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6269F6C-D869-20E9-1A36-EE2EF50CBC4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6269F6C-D869-20E9-1A36-EE2EF50CBC4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6269F6C-D869-20E9-1A36-EE2EF50CBC4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
